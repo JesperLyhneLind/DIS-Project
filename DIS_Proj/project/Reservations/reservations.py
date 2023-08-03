@@ -18,9 +18,6 @@ def get_hotels_data():
 
     cursor = conn.cursor()
     cursor.execute("SELECT username, id, owner, name, type, location, url, availability FROM reservations INNER JOIN hotels on reservations.hotelid = hotels.id;")
-                   
-                   
-    #SELECT * FROM hotels WHERE Availability = 'Reserved';")
     
 
     hotels_data = cursor.fetchall()
