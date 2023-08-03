@@ -24,15 +24,3 @@ def load_user(username):
     user = Customer(cur.fetchone()) if cur.rowcount > 0 else None
     cur.close()
     return user
-
-
-
-""" def select_Customer(username):
-    cur = conn.cursor()
-    sql = """
-"""     SELECT * FROM Customer
-    WHERE username = %s """
-    #cur.execute(sql, (username,))
-    #user = Customer(cur.fetchone()) if cur.rowcount > 0 else None
-    #cur.close()
-    #return user
