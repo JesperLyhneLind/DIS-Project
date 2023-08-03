@@ -21,7 +21,7 @@ Make sure you have all the necessary packages installed. You can install them us
 
 'pip install -r requirements.txt'
 
-Go the the hotels directory and type the following command to run the web application:
+In the project directory, type the following command to run the web application:
 
 'python3 run.py', or perhaps just 'python run.py'
 
