@@ -1,7 +1,7 @@
 from flask import render_template, url_for, flash, redirect, request, Blueprint
-from hotel import app, conn, bcrypt
-from hotel.forms import CustomerLoginForm
-from hotel.models import Customer
+from project import app, conn, bcrypt
+from project.forms import CustomerLoginForm
+from project.models import Customer
 import psycopg2
 
 About = Blueprint('About', __name__)
