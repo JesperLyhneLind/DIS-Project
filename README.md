@@ -21,7 +21,7 @@ Make sure you have all the necessary packages installed. You can install them us
 
 'pip install -r requirements.txt'
 
-In the project directory, type the following command to run the web application:
+In the DIS_Proj directory, type the following command to run the web application:
 
 'python3 run.py', or perhaps just 'python run.py'
 
