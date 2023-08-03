@@ -1,7 +1,7 @@
 from flask import render_template, url_for, flash, redirect, request, Blueprint
 from flask_login import current_user
-from hotel.forms import CustomerLoginForm
-from hotel.models import load_user
+from project.forms import CustomerLoginForm
+from project.models import load_user
 
 import psycopg2
 
