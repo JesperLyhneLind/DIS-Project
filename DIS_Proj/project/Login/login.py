@@ -1,8 +1,8 @@
 from flask import render_template, url_for, flash, redirect, Blueprint
-from hotel import bcrypt
-from hotel.forms import CustomerLoginForm
+from project import bcrypt
+from project.forms import CustomerLoginForm
 from flask_login import login_user, logout_user, current_user
-from hotel.models import load_user
+from project.models import load_user
 
 Login = Blueprint('Login', __name__)
 
