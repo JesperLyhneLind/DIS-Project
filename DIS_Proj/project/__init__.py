@@ -19,10 +19,10 @@ login_manager.login_view = 'login'
 login_manager.login_message_category = 'info'
 
 
-from hotel.Login.login import Login
-from hotel.Hotels.hotels import Hotels
-from hotel.About.about import About
-from hotel.Reservations.reservations import Reservations
+from project.Login.login import Login
+from project.Hotels.hotels import Hotels
+from project.About.about import About
+from project.Reservations.reservations import Reservations
 
 
 app.register_blueprint(Login)
